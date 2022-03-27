@@ -1,0 +1,59 @@
+.red {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.blue {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+.green {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  position: relative;
+}
+.yellow {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.content {
+  display: flex;
+}
+.button-modal {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.close {
+  display: none;
+}
+.active {
+  display: block;
+}
+
+.wrapper {
+  display: flex;
+  width: 150px;
+  flex-wrap: wrap;
+}
+.active {
+  background-color: rebeccapurple;
+}
+.quatro {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
